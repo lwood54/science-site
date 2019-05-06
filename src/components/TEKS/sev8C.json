@@ -1,0 +1,48 @@
+[
+    {
+        "tek": "sev8C",
+        "title": "Groundwater and Surface Water",
+        "standard": "Model the effects of human activity on groundwater and surface water in a watershed.",
+        "topics": [
+            {
+                "heading": "Groundwater",
+                "image": {
+                    "name": "groundwater",
+                    "imgSrc": "../../images/sev8C/groundwater.png",
+                    "imgSide": "left"
+                },
+                "content": "Groundwater is the water found under ground. When precipitation like rain, sleet, snow, or hail has a chance to soak into the ground, it's considered groundwater."
+            },
+            {
+                "s2Heading": "Runoff",
+                "s2Content": "Water that does not get soaked into the ground runs along the surface of the Earth and is called runoff. The more runoff there is, the more erosion and increased spreading of pollutants it may collect along the way."
+            },
+            {
+                "s3Heading": "Surface Water",
+                "s3Content": "As runoff continues along the Earth's surface, it will accumulate into common areas, such as in lakes, ponds, rivers, streams, etc. When the water table (the upper layer of groundwater) ends up higher than the surface, a spring is formed and then adds to the surface water."
+            },
+            {
+                "s4Heading": "Paved Surfaces",
+                "s4Content": "When we increased paved surfaces, we create a situation in which water is unable to penetrate the impermeable layers, like concrete. When water is unable to soak into the ground, it has no option other than moving along the surface. When this happens any waste, trash, toxins, loose soil, or chemicals can be carried along and deposited into bodies of surface water."
+            },
+            {
+                "s5Heading": "Too Much Nitrogen",
+                "s5Content": "One pollutant that is often seen affecting local sources of surface water is excess nitrogen. Excess nitrogen can come from places like animal waste or fertilizer. This excess is often seen near large residential areas, due to pets and their waste, or near ranches and the animal waste found there. When there is too much nitrogen, the water will experience algal blooms. This doesn't sound that bad because algae is a producer. The problem is when the algae dies, their decomposition removes all the oxygen from the water and kills the aquatic life."
+            },
+            {
+                "s6Heading": "How to Help",
+                "s6Content": "Here are some things you can do to help prevent pollution that may accumulate in our surface water. First, pick up after your dog or pet if it gets rid of solid waste. Second, make sure you don't over fertilize your lawn. Third, make sure that any toxic chemicals are disposed of correctly and not just dumped onto the ground or in the gutter. Lastly, don't litter. Try to reduce the amount of trash on the ground. Help with local clean up efforts."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Which of the following is the best definition of a watershed?",
+                "wrong1": "A building that stores water, usually kept behind a house.",
+                "wrong2": "The water that soaks in the ground and collects below the surface after it rains",
+                "wrong3": "The water located in a stream, river, pond, or lake.",
+                "correct": "The area of land that drains to a common body of water.",
+                "imge": ""
+            }
+        ]
+    }
+]

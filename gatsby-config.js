@@ -1,3 +1,5 @@
+const path = require(`path`);
+
 module.exports = {
     siteMetadata: {
         title: `Mr. Wood's Science Site`,
@@ -5,7 +7,19 @@ module.exports = {
         author: `Logan Wood`,
     },
     plugins: [
+        `gatsby-plugin-sass`,
         `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
+        `gatsby-transformer-json`,
+        `gatsby-plugin-playground`,
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `teksJSONContent`,
+                path: `${__dirname}/src/components/TEKS`,
+            },
+        },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -13,7 +27,5 @@ module.exports = {
                 path: `${__dirname}/src/images`,
             },
         },
-        `gatsby-transformer-sharp`,
-        `gatsby-plugin-sharp`,
     ],
 };
